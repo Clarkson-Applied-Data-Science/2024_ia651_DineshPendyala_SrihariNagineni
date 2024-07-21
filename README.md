@@ -1,7 +1,8 @@
 # 2024_ia651_DineshPendyala_SrihariNagineni
-# Heart Attack Prediction Project
+# Evaluating Hematological Predictors for Acute Myocardial Infarction (AMI) Forecasting
 
-This project aims to predict the occurrence of heart attacks using various machine learning models. The analysis is performed using PCA-transformed data and includes the evaluation of multiple classifiers such as Logistic Regression, SVC, Decision Tree, Random Forest, and XGBoost.
+
+This project aims to predict the occurrence of heart attacks(AMI) by analysis the hematological predictors using various machine learning models. The analysis is performed using PCA-transformed data and includes the evaluation of multiple classifiers such as Logistic Regression, SVC, Decision Tree, Random Forest, and XGBoost.
 
 ## Table of Contents
 
