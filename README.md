@@ -84,10 +84,17 @@ Below is a sample of the preprocessed and PCA-transformed data:
 
 ### Data Source
 
-The dataset was sourced from [source name], which provides comprehensive data on patient health metrics and heart attack occurrences. The data has been cleaned and preprocessed to ensure quality and consistency.
+The dataset was sourced from [\[Mendeley Data - Heart Disease\]](https://data.mendeley.com/datasets/m482gb564t/1), which provides comprehensive data on patient health metrics and heart attack occurrences. The data has been cleaned and preprocessed to ensure quality and consistency.
 
-Feel free to explore the dataset further and tweak the models or parameters to improve performance or adapt it to different datasets.
 
+### Models
+The following machine learning models are used in this project:
+
+1. Logistic Regression
+2. Support Vector Classifier (SVC)
+3. Decision Tree Classifier
+4. Random Forest Classifier
+5. XGBoost Classifier
 
 ## Results
 
