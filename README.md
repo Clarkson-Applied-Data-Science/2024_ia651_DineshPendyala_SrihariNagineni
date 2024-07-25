@@ -89,28 +89,45 @@ Below is a sample of the preprocessed and PCA-transformed data:
 
 <div style="display: flex; flex-wrap: wrap;">
 
-<div style="flex: 33%; padding: 10px; box-sizing: border-box;">
-    <img src="/Plots/box_plot_Age.png" alt="Box Plot Age" style="width:100%">
-    <p>Box Plot of Age</p>
-</div>
+    <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
+        <img src="/Plots/box_plot_Age.png" alt="Box Plot Age" style="width:100%">
+        <p>Box Plot of Age</p>
+    </div>
 
-<div style="flex: 33%; padding: 10px; box-sizing: border-box;">
-    <img src="/Plots/box_plot_WBC.png" alt="Box Plot WBC" style="width:100%">
-    <p>Box Plot of WBC</p>
-</div>
+    <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
+        <img src="/Plots/box_plot_WBC.png" alt="Box Plot WBC" style="width:100%">
+        <p>Box Plot of WBC</p>
+    </div>
 
-<div style="flex: 33%; padding: 10px; box-sizing: border-box;">
-    <img src="/Plots/box_plot_RBC.png" alt="Box Plot RBC" style="width:100%">
-    <p>Box Plot of RBC</p>
-</div>
+    <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
+        <img src="/Plots/box_plot_RBC.png" alt="Box Plot RBC" style="width:100%">
+        <p>Box Plot of RBC</p>
+    </div>
 
-<div style="flex: 33%; padding: 10px; box-sizing: border-box;">
-    <img src="/Plots/box_plot_HGB.png" alt="Box Plot HGB" style="width:100%">
-    <p>Box Plot of HGB</p>
-</div>
-
-<!-- Repeat this structure for other box plots -->
-
+    <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
+        <img src="/Plots/box_plot_HGB.png" alt="Box Plot HGB" style="width:100%">
+        <p>Box Plot of HGB</p>
+    </div>
+        <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
+        <img src="/Plots/box_plot_LY.png" alt="Box Plot HGB" style="width:100%">
+        <p>Box Plot of LY</p>
+    </div>
+    <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
+        <img src="/Plots/box_plot_MO.png" alt="Box Plot HGB" style="width:100%">
+        <p>Box Plot of MO</p>
+    </div>
+    <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
+        <img src="/Plots/box_plot_NEU.png" alt="Box Plot HGB" style="width:100%">
+        <p>Box Plot of NEU</p>
+    </div>
+    <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
+        <img src="/Plots/box_plot_RBC.png" alt="Box Plot HGB" style="width:100%">
+        <p>Box Plot of RBC</p>
+    </div>
+    <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
+        <img src="/Plots/box_plot_RBC.png" alt="Box Plot HGB" style="width:100%">
+        <p>Box Plot of RBC</p>
+    </div>
 </div>
 
 
