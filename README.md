@@ -128,6 +128,10 @@ Below is a sample of the preprocessed and PCA-transformed data:
         <img src="/Plots/box_plot_EO.png" alt="Box Plot HGB" style="width:100%">
         <p>Box Plot of EO</p>
     </div>
+    <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
+        <img src="/Plots/box_plot_Gender.png" alt="Box Plot HGB" style="width:100%">
+        <p>Box Plot of Gender</p>
+    </div>
 </div>
 
 
