@@ -89,22 +89,22 @@ Below is a sample of the preprocessed and PCA-transformed data:
 
 <div style="display: flex; flex-wrap: wrap;">
 
-    <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
-        <img src="/Plots/box_plot_Age.png" alt="Box Plot Age" style="width:100%">
-        <p>Box Plot of Age</p>
-    </div>
+<div style="flex: 33%; padding: 10px; box-sizing: border-box;">
+<img src="/Plots/box_plot_Age.png" alt="Box Plot Age" style="width:100%">
+<p>Box Plot of Age</p>
+</div>
 
-    <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
+ <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
         <img src="/Plots/box_plot_WBC.png" alt="Box Plot WBC" style="width:100%">
         <p>Box Plot of WBC</p>
     </div>
 
-    <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
+   <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
         <img src="/Plots/box_plot_RBC.png" alt="Box Plot RBC" style="width:100%">
         <p>Box Plot of RBC</p>
     </div>
 
-    <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
+   <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
         <img src="/Plots/box_plot_HGB.png" alt="Box Plot HGB" style="width:100%">
         <p>Box Plot of HGB</p>
     </div>
@@ -121,12 +121,12 @@ Below is a sample of the preprocessed and PCA-transformed data:
         <p>Box Plot of NEU</p>
     </div>
     <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
-        <img src="/Plots/box_plot_RBC.png" alt="Box Plot HGB" style="width:100%">
-        <p>Box Plot of RBC</p>
+        <img src="/Plots/box_plot_BA.png" alt="Box Plot HGB" style="width:100%">
+        <p>Box Plot of BA</p>
     </div>
     <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
-        <img src="/Plots/box_plot_RBC.png" alt="Box Plot HGB" style="width:100%">
-        <p>Box Plot of RBC</p>
+        <img src="/Plots/box_plot_EO.png" alt="Box Plot HGB" style="width:100%">
+        <p>Box Plot of EO</p>
     </div>
 </div>
 
