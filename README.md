@@ -83,6 +83,53 @@ Below is a sample of the preprocessed and PCA-transformed data:
 ## Exploratory Data Analysis
 ### Key Visiualization
 1. #### Histograms
+<div style="display: flex; flex-wrap: wrap;">
+
+<div style="flex: 33%; padding: 10px; box-sizing: border-box;">
+<img src="/Plots/histogram_NEU.png" alt="Box Plot Age" style="width:100%">
+<p>histogram_NEU</p>
+</div>
+
+ <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
+        <img src="/Plots/histogram_MO.png" alt="Box Plot WBC" style="width:100%">
+        <p>histogram_MO</p>
+    </div>
+
+   <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
+<img src="/Plots/histogram_LY.png" alt="Box Plot Age" style="width:100%">
+<p>histogram_LY</p>
+</div>
+
+   <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
+<img src="/Plots/histogram_EO.png" alt="Box Plot Age" style="width:100%">
+<p>histogram_EO</p>
+</div>
+        <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
+<img src="/Plots/histogram_BA.png" alt="Box Plot Age" style="width:100%">
+<p>histogram_BA</p>
+</div>
+    <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
+<img src="/Plots/histogram_HGB.png" alt="Box Plot Age" style="width:100%">
+<p>histogram_HGB</p>
+</div>
+    <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
+<img src="/Plots/histogram_RBC.png" alt="Box Plot Age" style="width:100%">
+<p>histogram_RBC</p>
+</div>
+    <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
+<img src="/Plots/histogram_WBC.png" alt="Box Plot Age" style="width:100%">
+<p>histogram_WBC</p>
+</div>
+   <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
+<img src="/Plots/histogram_Gender.png" alt="Box Plot Age" style="width:100%">
+<p>histogram_Gender</p>
+</div>
+   <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
+<img src="/Plots/histogram_Age.png" alt="Box Plot Age" style="width:100%">
+<p>histogram_Age</p>
+</div>
+</div>
+
 
 
 2. #### Box plots
@@ -127,10 +174,6 @@ Below is a sample of the preprocessed and PCA-transformed data:
     <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
         <img src="/Plots/box_plot_EO.png" alt="Box Plot HGB" style="width:100%">
         <p>Box Plot of EO</p>
-    </div>
-    <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
-        <img src="/Plots/box_plot_Gender.png" alt="Box Plot HGB" style="width:100%">
-        <p>Box Plot of Gender</p>
     </div>
 </div>
 
