@@ -88,7 +88,7 @@ Below is a sample of the preprocessed and PCA-transformed data:
 
 3. Correlation Matrixs
 #### Correlation Matrixs
-![Correlation Matrixs](CorrelationMatrix.png)
+![Correlation Matrixs](/Plots/CorrelationMatrix.png)
 
 ### Models Used
 The following machine learning models are used in this project:
