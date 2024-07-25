@@ -9,7 +9,6 @@ This project aims to predict the occurrence of heart attacks(AMI) by analysis th
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
 - [Models Used](#models-used)
-- [Evaluation Metrics](#evaluation-metrics)
 - [Usage](#usage)
 - [Results](#results)
 - [Conclusion](#conclusion)
