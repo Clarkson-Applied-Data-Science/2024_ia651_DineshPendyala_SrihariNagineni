@@ -8,7 +8,6 @@ This project aims to predict the occurrence of heart attacks(AMI) by analysis th
 
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
-- [Exploratory Data Analysis](#EDA)
 - [Models Used](#models-used)
 - [Evaluation Metrics](#evaluation-metrics)
 - [Usage](#usage)
@@ -178,10 +177,6 @@ Below is a sample of the preprocessed and PCA-transformed data:
         <p>Box Plot of EO</p>
     </div>
 </div>
-
-
-
-
 3. #### Correlation Matrixs
 
 ![Correlation Matrixs](/Plots/CorrelationMatrix.png)
@@ -204,7 +199,7 @@ The models are evaluated using 5-fold cross-validation. The following metrics ar
 
 ## Results
 
-The results include model evaluation metrics and plots of ROC curves for each model. Below is an example of the output for one of the models:
+The results include model evaluation metrics and plots of ROC curves for each model. Below is an example of the output for the models:
 
 ### Final Evaluation
 
@@ -222,9 +217,13 @@ The models are trained on the entire dataset and evaluated using:
 ![Confusion Matrix DTC](/Plots/ConfusionMatrix_DTC.png)
 ![Confusion Matrix RFC](/Plots/ConfusionMatrix_RFC.png)
 ![Confusion Matrix XGB](/Plots/ConfusionMatrix_XGB.png)
+
+
 - ### ROC-AUC Curves
 ![ROC - AUC - Curves](/Plots/ROC-AUC.png)
 
+## Conclusion
+
+From the results of all five models, XGBoost exhibits the highest accuracy compared to the rest. XGBoost is the most optimized classifier for this multinomial classification problem. According to the ROC-AUC curve, the AUC values of XGBoost are equal to 1, indicating perfect performance. The macro average ROC-AUC, which reflects the average performance of the classifier across all classes with equal weight, shows that XGBoost classifies all three classes perfectly.
 
 
-### ExploratoryDataAnalysis(EDA)
