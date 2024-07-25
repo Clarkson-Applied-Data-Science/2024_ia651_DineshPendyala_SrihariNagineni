@@ -69,6 +69,8 @@ Before feeding the data into the machine learning models, the following preproce
 2. **Scaling and Normalization**: The features were scaled and normalized to ensure all values are on a similar scale.
 3. **Principal Component Analysis (PCA)**: PCA was applied to reduce the dimensionality of the dataset, retaining the components that explain the majority(85%) of the variance.
 
+![SCREE Plot](/Plots/SCREE.png)
+![Varianceplot](/Plots/Varianceplot.png)
 ### Sample Data
 
 Below is a sample of the preprocessed and PCA-transformed data:
