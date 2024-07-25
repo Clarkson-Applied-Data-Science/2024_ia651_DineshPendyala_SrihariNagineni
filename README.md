@@ -8,22 +8,24 @@ This project aims to predict the occurrence of heart attacks(AMI) by analysis th
 
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
+- [Exploratory Data Analysis](#EDA)
 - [Models Used](#models-used)
 - [Evaluation Metrics](#evaluation-metrics)
-- [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
 - [Results](#results)
 - [Conclusion](#conclusion)
 
 ## Project Overview
 
-The goal of this project is to build and evaluate machine learning models to predict the likelihood of a heart attack based on various patient features. The analysis involves:
+The goal of this project is to build and evaluate machine learning models to predict the likelihood of a heart attack types based on various Hematological parameters of patient features. The analysis involves:
 
 1. Data preprocessing and PCA transformation.
 2. Model training using Stratified K-Fold Cross-Validation.
 3. Model evaluation using metrics like accuracy, precision, recall, F1-score, and ROC-AUC.
 4. Visualization of results.
- ## Setup Instructions
+ 
+ 
+## Setup Instructions
 
 ### Prerequisites
 
@@ -47,7 +49,7 @@ The goal of this project is to build and evaluate machine learning models to pre
 
 ## Dataset
 
-The dataset used in this project contains various features related to patient demographics and hematological information which are used to predict the occurrence of a heart attack. The dataset has been preprocessed and transformed using Principal Component Analysis (PCA) to reduce dimensionality and improve model performance.
+The dataset was sourced from [\[Mendeley Data - Heart Disease\]](https://data.mendeley.com/datasets/m482gb564t/1) .Dataset used in this project contains various features related to patient demographics and hematological information which are used to predict the occurrence of a heart attack. The dataset has been preprocessed and transformed using Principal Component Analysis (PCA) to reduce dimensionality and improve model performance.
 
 ### Features
 
@@ -55,13 +57,9 @@ The dataset includes the following features (columns):
 
 ![image](https://github.com/user-attachments/assets/778c493a-3fbb-48d6-8dcb-bb2052fbd836)
 
-
-
 ### Target Variable
 
 The target variable (`y`) is: **sub-type** which contains 3 classes encodes as 0 - STEMI , 1-Non-STEMI and 2 - Control
-
-
 
 ### Data Preprocessing
 
@@ -69,7 +67,7 @@ Before feeding the data into the machine learning models, the following preproce
 
 1. **Handling Missing Values**: Any missing values in the dataset were handled using appropriate imputation techniques.
 2. **Scaling and Normalization**: The features were scaled and normalized to ensure all values are on a similar scale.
-3. **Principal Component Analysis (PCA)**: PCA was applied to reduce the dimensionality of the dataset, retaining the components that explain the majority of the variance.
+3. **Principal Component Analysis (PCA)**: PCA was applied to reduce the dimensionality of the dataset, retaining the components that explain the majority(85%) of the variance.
 
 ### Sample Data
 
@@ -82,12 +80,17 @@ Below is a sample of the preprocessed and PCA-transformed data:
 | 0.45                  | -0.23                 | 0.12                  | ... | 0.34                  |
 | ...                   | ...                   | ...                   | ... | ...                   |
 
-### Data Source
+## Exploratory Data Analysis
+### Key Visiualization
+1. Histograms
 
-The dataset was sourced from [\[Mendeley Data - Heart Disease\]](https://data.mendeley.com/datasets/m482gb564t/1), which provides comprehensive data on patient health metrics and heart attack occurrences. The data has been cleaned and preprocessed to ensure quality and consistency.
+2. Box plots
 
+3. Correlation Matrixs
+#### Correlation Matrixs
+![Correlation Matrixs](CorrelationMatrix.png)
 
-### Models
+### Models Used
 The following machine learning models are used in this project:
 
 1. Logistic Regression
@@ -96,8 +99,24 @@ The following machine learning models are used in this project:
 4. Random Forest Classifier
 5. XGBoost Classifier
 
+## Cross-Validation
+
+The models are evaluated using 5-fold cross-validation. The following metrics are computed:
+- Accuracy
+- ROC-AUC
+
 ## Results
 
 The results include model evaluation metrics and plots of ROC curves for each model. Below is an example of the output for one of the models:
 
+### Final Evaluation
+
+The models are trained on the entire dataset and evaluated using:
+- Classification Report
+- Confusion Matrix
+- ROC-AUC Curves
+
 ### SVC Classification Report:
+
+
+### ExploratoryDataAnalysis(EDA)
