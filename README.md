@@ -209,20 +209,20 @@ The results include model evaluation metrics and plots of ROC curves for each mo
 ### Final Evaluation
 
 The models are trained on the entire dataset and evaluated using:
-- #### Accuracies
+- ### Accuracies
 - Average Logistic Regression Accuracy: 0.6778514451465866
 - Average SVC Accuracy: 0.678861493836113
 - Average Decision Tree Accuracy: 0.6268672951414069
 - Average Random Forest Accuracy: 0.700269346317207
 - Average XGBoost Accuracy: 0.7186418729928519
 
-- #### Confusion Matrix
+- ### Confusion Matrix
 ![Confusion Matrix MLR](/Plots/ConfusionMatrix_MLR.png)
 ![Confusion Matrix SVC](/Plots/ConfusionMatrix_SVC.png)
 ![Confusion Matrix DTC](/Plots/ConfusionMatrix_DTC.png)
 ![Confusion Matrix RFC](/Plots/ConfusionMatrix_RFC.png)
 ![Confusion Matrix XGB](/Plots/ConfusionMatrix_XGB.png)
-- #### ROC-AUC Curves
+- ### ROC-AUC Curves
 ![ROC - AUC - Curves](/Plots/ROC-AUC.png)
 
 
