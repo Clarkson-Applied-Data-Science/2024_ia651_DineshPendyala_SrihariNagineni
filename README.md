@@ -201,6 +201,7 @@ The models are evaluated using 5-fold cross-validation. The following metrics ar
 - Accuracy
 - ROC-AUC
 
+
 ## Results
 
 The results include model evaluation metrics and plots of ROC curves for each model. Below is an example of the output for one of the models:
@@ -209,9 +210,14 @@ The results include model evaluation metrics and plots of ROC curves for each mo
 
 The models are trained on the entire dataset and evaluated using:
 - Classification Report
-- Confusion Matrix
+- #### Confusion Matrix
+![Confusion Matrix MLR](/Plots/ConfusionMatrix_MLR.png)
+![Confusion Matrix SVC](/Plots/ConfusionMatrix_SVC.png)
+![Confusion Matrix DTC](/Plots/ConfusionMatrix_DTC.png)
+![Confusion Matrix RFC](/Plots/ConfusionMatrix_RFC.png)
+![Confusion Matrix XGB](/Plots/ConfusionMatrix_XGB.png)
 - ROC-AUC Curves
-
+![ROC - AUC - Curves](/Plots/ROC-AUC.png)
 ### SVC Classification Report:
 
 
