@@ -83,8 +83,11 @@ Below is a sample of the preprocessed and PCA-transformed data:
 ## Exploratory Data Analysis
 ### Key Visiualization
 1. #### Histograms
+   #### Distibution of y variable
+   ![Histogram of AMIType ](/Plots/Hist_AMITYPE.png)
+   
+   #### Distibution of some of the X variables
 <div style="display: flex; flex-wrap: wrap;">
-
 <div style="flex: 33%; padding: 10px; box-sizing: border-box;">
 <img src="/Plots/histogram_NEU.png" alt="Box Plot Age" style="width:100%">
 <p>histogram_NEU</p>
@@ -204,11 +207,11 @@ The results include model evaluation metrics and plots of ROC curves for each mo
 
 The models are trained on the entire dataset and evaluated using:
 - ### Accuracies
-- Average Logistic Regression Accuracy: 0.67
-- Average SVC Accuracy:  0.68
-- Average Decision Tree Accuracy:  0.93
-- Average Random Forest Accuracy:  1.00
-- Average XGBoost Accuracy:  1.00
+- Average Logistic Regression Accuracy: 0.6901121304791029
+- Average SVC Accuracy: 0.6992864424057085
+- Average Decision Tree Accuracy: 0.8583078491335372
+- Average Random Forest Accuracy: 0.9327217125382263
+- Average XGBoost Accuracy: 1.0
 
 - ### Confusion Matrix
 ![Confusion Matrix MLR](/Plots/ConfusionMatrix_MLR.png)
